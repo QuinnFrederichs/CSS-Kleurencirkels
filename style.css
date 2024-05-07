@@ -1,0 +1,75 @@
+.container {
+    height: 500px;
+    width: 500px;
+    isolation: isolate;
+    border: 1px solid black;
+}
+
+.cirkel1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 0, 0.3);
+
+    z-index: -10;
+}
+
+.cirkel2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.cirkel3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.containerhsla {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    isolation: isolate;
+}
+
+.cirkel1hsla{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: hsla(120, 100%, 50% , 0.4);
+}
+
+.cirkel2hsla{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: hsla(0, 100%, 50% , 0.4);
+}
+
+.cirkel3hsla{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: hsla(240, 100%, 50% , 0.4);
+}
